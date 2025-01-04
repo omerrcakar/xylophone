@@ -28,6 +28,9 @@
                                                 <fontDescription key="fontDescription" type="system" pointSize="40"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <state key="normal" title="C"/>
+                                                <connections>
+                                                    <action selector="keyPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Wso-bo-m5b"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <constraints>
@@ -46,6 +49,9 @@
                                                 <fontDescription key="fontDescription" type="system" pointSize="40"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <state key="normal" title="D"/>
+                                                <connections>
+                                                    <action selector="keyPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="B0h-6U-t6L"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <constraints>
@@ -64,6 +70,9 @@
                                                 <fontDescription key="fontDescription" type="system" pointSize="40"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <state key="normal" title="E"/>
+                                                <connections>
+                                                    <action selector="keyPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6V6-Oy-fy5"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <constraints>
@@ -82,6 +91,9 @@
                                                 <fontDescription key="fontDescription" type="system" pointSize="40"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <state key="normal" title="F"/>
+                                                <connections>
+                                                    <action selector="keyPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="PI1-di-e9K"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <constraints>
@@ -100,6 +112,9 @@
                                                 <fontDescription key="fontDescription" type="system" pointSize="40"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <state key="normal" title="G"/>
+                                                <connections>
+                                                    <action selector="keyPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qox-Gf-awR"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <constraints>
@@ -118,6 +133,9 @@
                                                 <fontDescription key="fontDescription" type="system" pointSize="40"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <state key="normal" title="A"/>
+                                                <connections>
+                                                    <action selector="keyPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="31U-J1-7od"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <constraints>
@@ -136,6 +154,9 @@
                                                 <fontDescription key="fontDescription" type="system" pointSize="40"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <state key="normal" title="B"/>
+                                                <connections>
+                                                    <action selector="keyPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="eUa-dP-JCf"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <constraints>
@@ -157,6 +178,15 @@
                             <constraint firstItem="gMb-hp-qEy" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="vxT-dQ-cYl"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outletCollection property="allButtons" destination="tzN-e9-Fev" collectionClass="NSMutableArray" id="DUg-6t-TP4"/>
+                        <outletCollection property="allButtons" destination="FRz-BL-h8H" collectionClass="NSMutableArray" id="RE1-lX-AlG"/>
+                        <outletCollection property="allButtons" destination="UCz-1s-JvR" collectionClass="NSMutableArray" id="wIy-cs-P8D"/>
+                        <outletCollection property="allButtons" destination="Dcu-i2-7jo" collectionClass="NSMutableArray" id="mVy-wf-qte"/>
+                        <outletCollection property="allButtons" destination="Mqu-QB-cVV" collectionClass="NSMutableArray" id="zVS-z1-foJ"/>
+                        <outletCollection property="allButtons" destination="GEE-dj-2cq" collectionClass="NSMutableArray" id="HbW-WC-7W9"/>
+                        <outletCollection property="allButtons" destination="APx-wZ-WiA" collectionClass="NSMutableArray" id="eYA-3A-0JI"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
